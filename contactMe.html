@@ -1,0 +1,79 @@
+<!-- Name: Nadia Bahatheg
+    ID: 2001111
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="author" content="Nadia Bahatheg">
+  <meta name="description" content="I am a web developer">
+  <meta name="keywords" content="web,developer,develop">
+  <title>Contact &#128383;</title>
+</head>
+
+<body>
+  <h3>Contact Information</h3>
+  <p>
+    <em>Nadia Bahatheg
+      <br />
+      Computer Science Student
+      <br />
+      King Abdulaziz University
+      <br>
+      +966558008614
+      <br>
+    </em>
+    <strong>Nbahatheg@stu.kau.edu.sa</strong>
+  </p>
+  <hr>
+  <form action="mailto:Nbahatheg@kau.edu.sa" method="post" enctype="text/plain">
+    <fieldset>
+      <h3>Contact Form</h3>
+      <label>Your name:</label>
+      <br>
+      <input type="text" name="name" value="">
+      <br>
+      <br>
+
+      <label>Why do you contact?</label>
+      <br>
+      <input list="type" id="type-choice" name="type" />
+      <datalist id="type">
+        <option value="Question">
+        <option value="Order">
+      </datalist>
+      <br />
+      <br>
+
+      <label for="">Message:</label>
+      <br>
+      <textarea name="message" rows="8" cols="80"></textarea>
+      <br>
+      <br>
+
+      <label>Preferred method of contact</label>
+      <input type="checkbox" name="contact[]" value="mobile">
+      <label for="mobile">Mobile</label>
+      <input type="checkbox" name="contact[]" value="email">
+      <label for="email">Email:</label>
+      <br>
+      <br>
+
+      <label>Email:</label>
+      <br>
+      <input type="email" name="email" value="" placeholder="example@co.com">
+      <br>
+      <br>
+
+      <label>Mobile number:</label>
+      <br>
+      <input type="tel" id="mobile" name="mobile" pattern="[0-9]{3}-[0-9]{2}-[0-9]{7}" placeholder="966-50-1234567">
+      <br>
+      <br>
+
+      <input type="submit" name="">
+    </fieldset>
+  </form>
+</body>
+
+</html>
